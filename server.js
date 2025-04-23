@@ -15,9 +15,5 @@ app.get('/lightoff', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
-
-
-
-
